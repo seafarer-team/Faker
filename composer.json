@@ -1,0 +1,24 @@
+{
+    "name": "seafarer/faker",
+    "description": "Laravel package for https://github.com/fzaninotto/Faker",
+    "authors": [
+        {
+            "name": "seafarer",
+            "email": "developer@seafarer.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "fzaninotto/faker": "^1.5"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Seafarer\\Faker\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
